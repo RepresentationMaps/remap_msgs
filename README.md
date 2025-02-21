@@ -1,3 +1,4 @@
-# ReMap msgs
+remap_msgs
+==========
 
-This package defines a set of interfaces for ReMap.
+This package defines a set of interfaces for reMap.
