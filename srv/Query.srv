@@ -1,0 +1,36 @@
+# a set of partially bound statements (ie, some terms in the statement(s) are
+# variables, starting with a '?')
+string[] patterns
+
+# the variables you want to be returned. If empty, all variables found in the
+# patterns are returned
+string[] vars
+
+string[] models
+
+# if dynamic is True, the query will be dinamically updated
+bool dynamic
+
+# the amount of time the point cloud result will be available.
+# If duration is 0, the result will be available indefinitely.
+builtin_interfaces/Duration duration
+
+# the frequency at which the query will be updated
+builtin_interfaces/Duration frequency
+
+# if publish_tf is True, a transform will be published for each variable in the
+# query; the transform will locate a frame (<id>/<variable>) placed in the
+# centroid of the retrieved point cloud.
+bool publish_tf
+
+string id
+---
+bool success
+
+# a JSON-encoded list of dictionaries, representing the result of the FIND
+# method. Each key in the dictionaries correspond to one variable.
+string json
+
+# if success = False, error_msg might contain additional information about the
+# failure.
+string error_msg

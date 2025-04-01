@@ -16,6 +16,8 @@ ament_auto_find_build_dependencies()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddPlugin.srv"
   "srv/RemovePlugin.srv"
+  "srv/Query.srv"
+  DEPENDENCIES builtin_interfaces
 )
 
 if(BUILD_TESTING)
