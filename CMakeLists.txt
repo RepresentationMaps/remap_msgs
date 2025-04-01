@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddPlugin.srv"
   "srv/RemovePlugin.srv"
   "srv/Query.srv"
+  "srv/RemoveQuery.srv"
   DEPENDENCIES builtin_interfaces
 )
 
