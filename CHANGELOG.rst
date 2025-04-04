@@ -2,8 +2,8 @@
 Changelog for package remap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2025-04-04)
+------------------
 * added service message to remove queries
 * added query service
 * improved README
