@@ -2,6 +2,12 @@
 Changelog for package remap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* defined interfaces to handle meshes in remap
+* updated README
+* Contributors: lorenzoferrini
+
 0.2.0 (2025-04-04)
 ------------------
 * added service message to remove queries
