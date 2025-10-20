@@ -14,11 +14,14 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/TransformMeshes.msg"
   "srv/AddPlugin.srv"
   "srv/RemovePlugin.srv"
   "srv/Query.srv"
   "srv/RemoveQuery.srv"
-  DEPENDENCIES builtin_interfaces
+  "srv/AddMesh.srv"
+  "srv/RemoveMesh.srv"
+  DEPENDENCIES builtin_interfaces geometry_msgs
 )
 
 if(BUILD_TESTING)

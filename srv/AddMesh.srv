@@ -1,0 +1,13 @@
+string instance_id
+
+string object_id
+
+string class_id
+
+geometry_msgs/PoseStamped pose
+---
+bool success
+
+string instantiated_instance_id
+
+string status_message
