@@ -2,8 +2,8 @@
 Changelog for package remap_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2025-10-20)
+------------------
 * defined interfaces to handle meshes in remap
 * updated README
 * Contributors: lorenzoferrini
